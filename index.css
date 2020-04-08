@@ -1,0 +1,15 @@
+.demoContainer {
+    width : 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+}
+
+.setSelectedItemButton {
+    margin-top: 10px;
+}
+.setDataButton {
+    margin-top: 20px;
+}

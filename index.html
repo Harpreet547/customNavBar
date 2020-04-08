@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Custom Navbar</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <button-navbar 
+            id='navbar' 
+            data='{ "button1": { "isSelected": true, "label": "Button1" }, "button2": { "isSelected": false, "label": "Button2" } }'
+            selectedColor='green'
+            unSelectedColor='gray'
+            navTitle='Title'>
+        </button-navbar>
+
+        <div class="demoContainer">
+            <input id="input"/>
+            <button onclick="setSeletedItem()" class="setSelectedItemButton">Set Selected Item</button>
+            <button onclick="setData()" class="setDataButton">Set Data</button>
+        </div>
+        
+        <script src="./index.js"></script>
+        <script src="./buttonNavBar/NavBarTemplate.js"></script>
+
+        <script src="./buttonNavBar//ButtonNavBar.js"></script>
+        
+
+    </body>
+</html>
